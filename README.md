@@ -738,7 +738,7 @@ to get interceptors and scopes
 * implicit parameters aren't handled by `wire` at all (they used to be subject to the same lookup procedure as normal
 parameters + implicit lookup)
 
-## Play 2.4.x <a id="play24x"></a>
+## Play 2.4.x
 
 In Play 2.4.x, you can no longer use getControllerInstance in GlobalSettings for injection. Play has a new pattern for injecting controllers. You must extend ApplicationLoader, from there you can mix in your modules.
 
